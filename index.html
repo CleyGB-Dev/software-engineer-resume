@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Cleyton Gabriel Barbosa</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --accent: #2563eb;
+            --text: #374151;
+            --bg: #f8fafc;
+        }
+        body { font-family: 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); line-height: 1.4; padding: 20px; }
+        .cv-card { max-width: 850px; margin: auto; background: #fff; padding: 40px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); border-top: 8px solid var(--primary); }
+        header { border-bottom: 2px solid #e5e7eb; padding-bottom: 20px; margin-bottom: 20px; }
+        h1 { margin: 0; color: var(--primary); font-size: 28px; text-transform: uppercase; }
+        .role { font-weight: 700; color: var(--accent); letter-spacing: 1px; margin: 5px 0; }
+        .contacts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; font-size: 12px; font-weight: 600; margin-top: 10px; }
+        .contacts a { color: var(--text); text-decoration: none; border-bottom: 1px solid #cbd5e1; }
+        section { margin-bottom: 25px; }
+        h2 { font-size: 16px; text-transform: uppercase; color: var(--primary); border-left: 5px solid var(--accent); padding-left: 10px; margin-bottom: 15px; background: #f1f5f9; }
+        .exp-box { margin-bottom: 20px; }
+        .exp-header { display: flex; justify-content: space-between; font-weight: 800; font-size: 14px; color: #111827; }
+        .stack-tag { font-size: 10px; background: #dbeafe; color: #1e40af; padding: 2px 8px; border-radius: 4px; font-weight: 700; margin: 5px 0; display: inline-block; }
+        ul { padding-left: 20px; margin: 5px 0; }
+        li { margin-bottom: 4px; font-size: 13.5px; text-align: justify; }
+        .skills-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; }
+        .skill-item b { font-size: 12px; color: var(--primary); display: block; }
+        .skill-item p { font-size: 12px; margin: 0; }
+        @media print { body { background: #fff; padding: 0; } .cv-card { box-shadow: none; width: 100%; border: none; } }
+    </style>
+</head>
+<body>
+
+<div class="cv-card">
+    <header>
+        <h1>Cleyton Gabriel Barbosa</h1>
+        <div class="role">Software Engineer Junior | Full Stack Developer | Liderança Técnica</div>
+        <div class="contacts">
+            <span>📍 Duque de Caxias, RJ</span>
+            <span>📞 (21) 99189-4571</span>
+            <span>✉️ <a href="mailto:cleytongabrielbarbosa@gmail.com">cleytongabrielbarbosa@gmail.com</a></span>
+            <span>🔗 <a href="https://linkedin.com/in/cleyton-barbosa-b68898373/">LinkedIn Profissional</a></span>
+            <span>💻 <a href="https://github.com/cleygb-dev">Repositórios GitHub</a></span>
+            <span>🌐 <a href="https://cleygb-dev.github.io/Portfolio-Cleyton-Barbosa/">Portfólio Ativo</a></span>
+        </div>
+    </header>
+
+    <section>
+        <h2>Resumo Profissional</h2>
+        <p style="font-size: 13.5px; margin: 0;">
+            Desenvolvedor Full Stack com foco em <strong>Engenharia de Software</strong> e <strong>Sistemas Escaláveis</strong>. Experiência comprovada na liderança técnica de projetos reais, desde a arquitetura de banco de dados até o deploy em produção. Especialista em ecossistema <strong>Node.js/TypeScript</strong>, com forte viés em <strong>Segurança da Informação</strong> (mitigação de OWASP Top 10). Histórico de 8 anos de carreira militar, unindo competência técnica a uma <strong>disciplina inabalável, resiliência operacional e foco total em processos de alta criticidade</strong>.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experiência Técnica & Projetos Reais</h2>
+        
+        <div class="exp-box">
+            <div class="exp-header">
+                <span>Líder Técnico & Full Stack Dev - Plataforma de Eventos (Estácio)</span>
+                <span>2024 - 2025</span>
+            </div>
+            <div class="stack-tag">Node.js • TypeScript • PHP 8 • MySQL • JWT Auth • Security Architect</div>
+            <ul>
+                <li><strong>Liderança Técnica:</strong> Mentoria integral em todas as fases do SDLC (Ciclo de Vida de Desenvolvimento de Software), coordenando a arquitetura e integração do sistema.</li>
+                <li><strong>Performance & Escala:</strong> Implementação de backend robusto para suportar alto volume de acessos e cadastros simultâneos em tempo real.</li>
+                <li><strong>Cybersecurity:</strong> Setup de camadas de proteção contra SQL Injection, XSS e proteção de endpoints via JWT, garantindo a integridade dos dados dos usuários.</li>
+                <li><strong>Automação de Dados:</strong> Desenvolvimento de microserviço para conversão dinâmica de dados brutos em relatórios logísticos (PDF) via API.</li>
+            </ul>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-header">
+                <span>Desenvolvedor Mobile - CG-Finance (Ecosistema de Gestão)</span>
+                <span>2026</span>
+            </div>
+            <div class="stack-tag">React Native • JavaScript ES6+ • Context API • Mobile UX</div>
+            <ul>
+                <li>Criação de aplicação financeira com lógica de <strong>processamento assíncrono</strong> para cálculos de balanço patrimonial e gestão de estado global.</li>
+                <li>Foco em <strong>UI/UX Responsivo</strong> e persistência de dados local segura.</li>
+            </ul>
+        </div>
+
+        <div class="exp-box">
+            <div class="exp-header">
+                <span>Gestão de Infraestrutura & Tecnologia - Exército Brasileiro (HCE)</span>
+                <span>2018 - 2026</span>
+            </div>
+            <div class="stack-tag">Gestão de Processos • Segurança de Dados • Resiliência Operacional</div>
+            <ul>
+                <li>Atuação em ambiente de alta criticidade (Hospital Central do Exército), garantindo a continuidade de processos e a segurança em fluxos de trabalho estruturados.</li>
+                <li>Desenvolvimento de competências em <strong>Troubleshooting</strong>, hierarquia de dados e conformidade com normas rígidas de operação.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>Stack Tecnológica (Keywords)</h2>
+        <div class="skills-grid">
+            <div class="skill-item">
+                <b>BACKEND</b>
+                <p>Node.js, TypeScript, PHP (Laravel/Slim), REST APIs, Docker, Clean Architecture.</p>
+            </div>
+            <div class="skill-item">
+                <b>DATABASE</b>
+                <p>MySQL, PostgreSQL, Modelagem de Dados, Otimização de Queries, NoSQL.</p>
+            </div>
+            <div class="skill-item">
+                <b>FRONTEND/MOBILE</b>
+                <p>React.js, React Native, JavaScript (ES6+), Tailwind CSS, UI/UX Design.</p>
+            </div>
+        </div>
+    </section>
+
+    <section style="display: grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+        <div>
+            <h2>Diferenciais Competitivos</h2>
+            <ul>
+                <li><strong>Liderança & Mentoria:</strong> Capacidade comprovada de guiar equipes e projetos rumo à entrega.</li>
+                <li><strong>Soft Skills Militares:</strong> Pontualidade, disciplina extrema e facilidade em seguir documentação técnica.</li>
+                <li><strong>Mindset de Segurança:</strong> Foco constante em código limpo e mitigação de vulnerabilidades.</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Educação</h2>
+            <p style="font-size: 12px;"><strong>Análise e Desenv. de Sistemas</strong><br>Estácio de Sá - 3º Período<br><em>Previsão: 06/2027</em></p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
